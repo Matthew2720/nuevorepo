@@ -7,30 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>Impresion serie fibonacci, se listan de a 10 hasta la proxima linea</h3>
+    <h3>Factorial</h3>
     <?php
         $n = $_POST['n'];
-        $a=0;$b=1;
-        for ($i=0; $i <$n ; $i++) {
-            switch ($i) {
-                case '0':
-                    print "0,";
-                    break;
-                
-                case '1':
-                    print "1,";
-                    break;
-            }
-            if($i>1){
-            $c=$a+$b;
-            print "$c,";
-            $a=$b;
-            $b=$c;
-                if(($i+1) % 10 == 0){
-                    print "</br>";
-                }    
-            }
+        $contador=1;
+        for($i=1;$i<$n;$i++){
+            $contador = $contador * $i;
         }
+
+        print "El factorial es $contador"
     ?>
 </body>
 </html>
