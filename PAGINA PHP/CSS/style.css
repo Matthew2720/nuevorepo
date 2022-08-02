@@ -1,0 +1,48 @@
+#bodyindex{
+    text-align: center;
+    background-color: darkgray;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px white;
+
+}
+
+#contenedormenu {
+    position: relative;
+    left: 100px;
+    background-color: grey;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 20px;
+    scroll-behavior: smooth;
+    width: auto;
+    
+}
+
+#contenedormenu h2 {
+    position: relative;
+    color: white;
+    left: 20%;
+    
+}
+
+.boton{
+    float: left;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 300px;
+    height: 20;
+    background-color: black;
+    color: black;
+    margin: 4px;
+    text-shadow: 2px 2px 2px white;
+    font-size: 30px;
+}
+
+#ejemplo1 {
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+}
