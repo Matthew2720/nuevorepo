@@ -23,7 +23,7 @@
         }
         else
         {
-            print "$a"
+            print "$a";
         }
     }
     ?>
